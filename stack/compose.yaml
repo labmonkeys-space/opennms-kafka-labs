@@ -75,7 +75,7 @@ services:
       - "9101:9101/tcp"
 
   core:
-    image: opennms/horizon:33.0.1
+    image: opennms/horizon:33.0.2
     depends_on:
       database:
         condition: service_healthy
